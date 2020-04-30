@@ -1,0 +1,36 @@
+So Fimally I made some blog using PHP.
+For my future reference this document might be helpful.
+
+So basically this web blog is responsive because I have used bootstap framework which will be compatible in both mobile and desktops
+So the code required for bootstrap is in a file called bootstap.min.js
+jquery plugins are also made availble in this project.
+
+This blog has two views-User and Admin
+
+User can able to see all the posts added by Admin. 
+user has a facility to View a particular post, and comment it.Users can able to View the posts of specific categories.
+
+For Example..In this blog..There is a navbar at the top of the page which has various categories like Angular,Bootstap, Jquery..User can
+go to only a specific category and View the posts of that category. 
+
+In the Sidebar, there is a login system, if the user has admin credentials then user can see the admin View.
+
+In Admin View..There are different activities being done by Admin..Admin can add posts, View the post..Admin can Add Categories..Delete 
+Categories..Admin has the ability to view the comments for the specific posts..Admin will approve or disapprove the comments.
+The Comments which are approved by the Admin will only be shown to the users. There is a dashboard which shows a grap indicating the count
+of posts,comments,categories etc..
+
+
+So basically.,Firstly I downloaded xampp..and started apache and mysql using XAMPP Control Panel.We need a Server to run the php code..
+because php is run on server side gives output in client side.In C Drive->xampp->htdocs->I created a folder called cms..In browser I 
+execute by using url localhost/cms..
+
+
+In order connect to database..Xampp is providing phpmyAdmin..we can go localhost/phpmyAdmin and create the tables we want..
+my table name is cms..which has posts table, categories table, users table and comments table..
+
+Posts Table and Comments Table both are related to each other by category id
+Posts and Comments are related to each other by post id..
+
+
+
